@@ -1,14 +1,25 @@
-# To-do list
+## description
 
-Create a simple application to let users add/remove/edit tasks.
-Tasks should have: title, deadline, status
-![task-list](task_list.png)
-![add-task](add_task.png)
-![edit-task](edit_task.png)
+1. It's a todo application using document object moduing
+2. User can edit a toto item and also mark the status as complete, running or incomplete
+3. User can also delete a todo.
 
-## Requirements
-* `Title` should be unique
-* `Status` is one of 3 options : `["not started", "in progress", "done"]`
-* Form to add/edit tasks should be opened/closed by clicking on a button (see the screenshot)
-* Deploy your project to github page and provide link to your live server in README. Make sure your README file is informative and codes are well-formatted
-* Only minimum style (with SASS) is needed.
+## Technology
+
+HTMl 5, JavaScript
+
+## Deploy
+
+https://todo-firstpart.netlify.app/
+
+
+## Project Structure
+
+````
+.
+├── README.md
+├── index.html
+├── index.js
+└── style.css
+
+````
